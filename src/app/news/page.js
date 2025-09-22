@@ -10,10 +10,9 @@ import {
   ShareIcon,
   BookmarkIcon,
   ClockIcon,
-  TrendingDownIcon,
   MinusIcon
 } from '@heroicons/react/24/outline';
-import { TrendingUp } from 'lucide-react';
+import { TrendingUp, TrendingDown } from 'lucide-react';
 import Header from '@/components/layout/Header';
 import { mockNewsData, searchNews } from '@/lib/newsData';
 import { formatDate } from '@/lib/utils';
@@ -126,7 +125,7 @@ const NewsPage = () => {
       case 'Positive':
         return { icon: <TrendingUp className="w-4 h-4" />, color: 'text-green-500', bg: 'bg-green-500/10' };
       case 'Negative':
-        return { icon: <TrendingDownIcon className="w-4 h-4" />, color: 'text-red-500', bg: 'bg-red-500/10' };
+        return { icon: <TrendingDown className="w-4 h-4" />, color: 'text-red-500', bg: 'bg-red-500/10' };
       default:
         return { icon: <MinusIcon className="w-4 h-4" />, color: 'text-gray-500', bg: 'bg-gray-500/10' };
     }

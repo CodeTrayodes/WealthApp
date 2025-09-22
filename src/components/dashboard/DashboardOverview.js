@@ -18,14 +18,11 @@
 
 import { motion } from 'framer-motion';
 import { 
-  TrendingDownIcon,
   EyeIcon,
   BanknotesIcon,
   ChartBarIcon,
   UserGroupIcon,
   ArrowUpIcon,
-  ArrowDownIcon,
-  CalendarIcon,
   ClockIcon
 } from '@heroicons/react/24/outline';
 import { TrendingUp } from 'lucide-react';
