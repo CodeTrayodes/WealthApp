@@ -319,7 +319,7 @@ const KycProgress = ({ steps, currentStep, uploadedCount, totalDocuments }) => {
             {currentStep === 4 && (
               <div className="bg-green-500/10 border border-green-500/20 p-4 rounded-xl">
                 <p className="text-green-400 text-sm">
-                  Your KYC submission is complete and under review. You'll receive an update within 1-2 business days.
+                  {"Your KYC submission is complete and under review. You'll receive an update within 1-2 business days."}
                 </p>
               </div>
             )}
